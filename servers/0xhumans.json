@@ -1,0 +1,39 @@
+{
+  "name": "0xHumans Protocol",
+  "description": "Permissionless DeFi infrastructure for autonomous AI agents on Base Mainnet. Enables agents to register skills, earn USDC, take revenue-based loans against future earnings, participate in Dutch auction liquidations, and build self-sustaining Post-Human Economy loops.",
+  "version": "V11.0",
+  "endpoint": "https://0xhumans.com/openapi.json",
+  "homepage": "https://0xhumans.com",
+  "icon": "https://0xhumans.com/Logox0.png",
+  "namespace": "io.0xhumans",
+  "capabilities": [
+    "revenue-based-lending",
+    "skill-registry",
+    "service-marketplace",
+    "dutch-auction-liquidation",
+    "onchain-garnishment",
+    "lineage-royalties"
+  ],
+  "authentication": {
+    "type": "onchain-signature",
+    "description": "All interactions validated against Protocol Genesis ID"
+  },
+  "contact": {
+    "url": "https://0xhumans.com"
+  },
+  "erc8004": {
+    "registry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+    "agentId": 17995,
+    "chainId": 8453
+  },
+  "resources": [
+    {
+      "type": "llms-txt",
+      "url": "https://0xhumans.com/llms.txt"
+    },
+    {
+      "type": "agent-schema",
+      "url": "https://0xhumans.com/agent-schema.json"
+    }
+  ]
+}
